@@ -1,7 +1,7 @@
 ## 下载
 
 ```
-git clone git@github.com:ninghao/webapp-s01-pages.git
+git clone git@github.com:noasquare/slweb.git
 ```
 
 ## 安装
@@ -43,4 +43,3 @@ gulp serve
 ## 编辑项目
 用编辑器打开项目，然后去编辑在 `app` 目录下的东西，你可能还需要去编辑 `semantic` 目录下的东西。
 
-[ninghao.net](http://ninghao.net)
