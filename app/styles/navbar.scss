@@ -1,0 +1,61 @@
+.ui.navbar{
+  background: #fff;
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+  }
+  .header {
+    align-self: center;
+    transition: all .5s;
+    opacity: 1;
+  }
+ .header > img {
+    padding: 8px;
+    width: 100px;
+    box-sizing: content-box;
+  }
+  .menu {
+    margin-left: 56px;
+    opacity: 1;
+    transition: all .4s;
+  }
+  .menu .item {
+    display: inline-block;
+    font-size: 18px;
+    color: #000;
+    margin-left : 24px;
+    margin-right: 24px;
+    padding-bottom: 32px;
+    padding-top: 24px;
+  }
+  .menu .item.active{
+    border-bottom: 2px solid #9c0525;
+  }
+  .search-icon {
+    flex-grow: 1;
+    text-align: right;
+    align-self:center;
+  }
+  .search-icon > i {
+    cursor: pointer;
+  }
+  .search-form {
+    position: absolute;
+    transform: translateY(-120px);
+    transition: all .5s;
+    opacity: 0;
+  }
+  .searching ~ .search-form{
+    // color: #000;
+    transform: translateY(-50px);
+    opacity: 1;
+  }
+  .searching .header, & .searching .menu{
+    transform: translateY(80px);
+    opacity: 0;
+  }
+
+}
