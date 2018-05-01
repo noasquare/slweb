@@ -1,3 +1,4 @@
+
 .ui.navbar{
   background: #fff;
   .content {
@@ -7,6 +8,13 @@
     position: relative;
     overflow: hidden;
   }
+  .menu-icon {
+    align-self : center;
+  }
+  .menu-icon > i {
+    cursor: pointer;
+  }
+
   .header {
     align-self: center;
     transition: all .5s;
@@ -58,4 +66,29 @@
     opacity: 0;
   }
 
+}
+
+@media only screen and (min-width:767px) {
+  .ui.navbar {
+    .menu-icon{
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width:767px){
+  .ui.navbar{
+    .header > img{
+      width: 56px;
+    }
+    .menu {
+      display: none;
+    }
+    .search-icon{
+      flex-grow: 0;
+    }
+    .content{
+      justify-content: space-between;
+    }
+  }
 }
