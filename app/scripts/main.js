@@ -38,6 +38,8 @@ $('ui.navbar .search-icon > i')
   .clone()
   .appendTo('.ui.sidebar')
 
+  $('.ui.hero.carousel')
+  .slick()
 
 
 })();

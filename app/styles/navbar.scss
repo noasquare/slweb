@@ -10,6 +10,9 @@
   }
   .menu-icon {
     align-self : center;
+    transition: all .4s;
+    opacity: 1;
+
   }
   .menu-icon > i {
     cursor: pointer;
@@ -53,7 +56,7 @@
   .search-form {
     position: absolute;
     transform: translateY(-120px);
-    transition: all .5s;
+    transition: all .4s;
     opacity: 0;
   }
   .searching ~ .search-form{
@@ -84,11 +87,19 @@
     .menu {
       display: none;
     }
+    .searching .menu-icon{
+      transform: translateY(80px);
+      opacity: 0;
+    }
     .search-icon{
       flex-grow: 0;
     }
     .content{
       justify-content: space-between;
     }
+    .searching ~ .search-form{
+      transform: translateY(-40px);
+    }
+
   }
 }
