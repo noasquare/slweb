@@ -29,7 +29,10 @@ $('ui.navbar .search-icon > i')
    * sidebar
    */
    $('.ui.sidebar')
-   
+   .sidebar('attach events','.ui.navbar .menu-icon')
+   .sidebar('attach events','.ui.sidebar .close-icon')
+   .sidebar('setting','dimPage',false)
+
 
   $('.ui.navbar .menu')
   .clone()

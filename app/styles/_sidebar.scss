@@ -1,0 +1,28 @@
+.ui.sidebar{
+  background: #fff;
+  & .menu {
+    display: flex;
+    flex-direction:column;
+    & .item {
+      padding: 15px;
+      text-align: right;
+      font-size: 15px;
+      color: #000;
+    }
+    & .item.active{
+      background: #f8f8f8;
+
+    }
+    & .item:hover{
+      background: #fbfbfb;
+    }
+
+  }
+  .close-icon{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+}
