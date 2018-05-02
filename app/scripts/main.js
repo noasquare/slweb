@@ -25,6 +25,16 @@ $('ui.navbar .search-icon > i')
     }
   })
 
+  /**
+   * sidebar
+   */
+   $('.ui.sidebar')
+   
+
+  $('.ui.navbar .menu')
+  .clone()
+  .appendTo('.ui.sidebar')
+
 
 
 })();
