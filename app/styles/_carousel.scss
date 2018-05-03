@@ -1,0 +1,60 @@
+.ui.hero.carousel{
+  .prev.button,.next.button{
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+  }
+  .prev.button{
+    left: 24px;
+    margin: 0;
+    padding: 6px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 20%;
+    color: rgba(0,0,0,.4);
+    background: rgba(255, 255, 255, .5);
+
+
+  }
+  .next.button{
+    right: 24px;
+    margin: 0px;
+    padding: 6px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 20%;
+    color: rgba(0,0,0,.4);
+    background: rgba(255, 255, 255, .5);
+  }
+  .slick-dots
+  {
+    bottom:20px;
+  }
+  // position: relative;
+  // .prev.button{
+  //   left:24px;
+  // }
+  // .next.button{
+  //   right:24px;
+  // }
+  // .next.button, .prev.button{
+  //   position: absolute;
+  //   z-index: 3
+  //   // top:auto;
+  //   bottom: 0;
+  // }
+  // .slick-next{
+  //   right:25px;
+  // }
+  // .slick-prev{
+  //   left:25px;
+  // }
+  // .slick-next,.slick-prev{
+  //   z-index: 3;
+  //   position: absolute;
+  //   top:auto;
+  //   bottom: 0px;
+  //   margin-bottom: 60px;
+  // }
+
+}
