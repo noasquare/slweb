@@ -1,0 +1,19 @@
+.cards{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  // .ui.container{
+  //   background: #000;
+  //   font-size: 45px;
+  // }
+  .ui.card{
+    background: #fff;
+    cursor: pointer;
+
+    transition: box-shadow .5s;
+    &:hover{
+      box-shadow: 0 32px 48px rgba(0, 0, 0, 0.06);
+    }
+    }
+
+
+}
