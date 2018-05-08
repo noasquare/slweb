@@ -6,12 +6,12 @@
   //   font-size: 45px;
   // }
   .ui.card{
-    background: #fff;
+    background: #f4f4f4;
     cursor: pointer;
 
-    transition: box-shadow .5s;
+    transition: box-shadow .4s;
     &:hover{
-      box-shadow: 0 32px 48px rgba(0, 0, 0, 0.06);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     }
     }
 
