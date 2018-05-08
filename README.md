@@ -9,7 +9,7 @@ git clone git@github.com:noasquare/slweb.git
 
 进入到项目所在的目录：
 ```
-cd webapp-s01-pages
+cd desktop/slweb
 ```
 然后用 yarn 安装项目需要的包：
 ```
