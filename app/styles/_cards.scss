@@ -1,57 +1,22 @@
 .cards{
-  // padding-top: 20px;
-  // padding-bottom: 20px;
-  // .ui.container{
-  //   background: #000;
-  //   font-size: 45px;
-  // }
   .ui.card{
+    margin-top: 20px;
+    width: auto;
+    text-align: center;
     .image > img{
-      padding: 10% 20%;
-      width: 100%;
-
-      ::after{
-        content: " ";
-        display: block;
-        border-bottom: 2px solid #000;
-      }
+      width: auto;
+      margin-bottom: 10px;
+      // padding: 10% 40%;
     }
     .content{
+      margin-bottom: 15px;
       > .header {
+        width: auto;
         color: #000;
-        font-size: 24px;
-        margin: 0;
-        margin-bottom: 24px;
-        :after{
-          content: " ";
-          display: block;
-          border-bottom: 2px solid #000;
+        font-size: 20px;
+
         }
       }
 
       }
     }
-
-    cursor: pointer;
-    transition: box-shadow .4s;
-    &:hover{
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    }
-
-
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // .image > img{
-    //   margin-bottom: 10px;
-    // }
-    // .content > a.header{
-    //   color: #000;
-    //   font-size: 100px;
-    // }
-
-
-
-
-
-}
